@@ -1,0 +1,27 @@
+{
+  "validStudentRegistration": {
+    "name": "Kavya Iyer",
+    "email": "kavya.iyer@campuscred.demo",
+    "registrationNumber": "2024EC088",
+    "department": "Electronics & Communication",
+    "year": "2nd Year",
+    "semester": "3rd Semester",
+    "course": "B.Tech",
+    "branch": "ECE",
+    "phone": "+91 91234 56789",
+    "password": "Password123"
+  },
+  "invalidStudentRegistration": {
+    "name": "",
+    "email": "not-an-email",
+    "registrationNumber": "",
+    "department": ""
+  },
+  "duplicateRegistration": {
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@campuscred.demo",
+    "registrationNumber": "2023CS041",
+    "department": "Computer Science & Engineering",
+    "password": "Password123"
+  }
+}

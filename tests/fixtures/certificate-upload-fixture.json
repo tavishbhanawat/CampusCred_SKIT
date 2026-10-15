@@ -1,0 +1,31 @@
+{
+  "validImage": {
+    "fileName": "smart-india-hackathon-first-prize.png",
+    "contentType": "image/png",
+    "fileSize": 184520,
+    "downloadUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+  },
+  "validPdf": {
+    "fileName": "ieee-conference-proceeding.pdf",
+    "contentType": "application/pdf",
+    "fileSize": 524288,
+    "downloadUrl": "data:application/pdf;base64,JVBERi0xLjQKJcTl8uXrp/Og0MTGCjQgMCBvYmoKPDwgL0xlbmd0aCA1IDAgUiAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeJzLzcxTSEvMzUzPVMhLLSrNSwEAG2kF/gplbmRzdHJlYW0KZW5kb2JqCg=="
+  },
+  "invalidFileType": {
+    "fileName": "malicious-executable.exe",
+    "contentType": "application/x-msdownload",
+    "fileSize": 2048
+  },
+  "oversizedFile": {
+    "fileName": "oversized-raw-scan.tif",
+    "contentType": "image/tiff",
+    "fileSize": 15728640
+  },
+  "knownRegistrations": {
+    "verifiedId": "CC-2026-0140",
+    "partnerId": "IEEE-CS-2026-4821",
+    "revokedId": "CC-2024-REVOKED",
+    "tamperedId": "CC-2025-TAMPERED",
+    "unknownId": "CC-9999-NOTFOUND"
+  }
+}

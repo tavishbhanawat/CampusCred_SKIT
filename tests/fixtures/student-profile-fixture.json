@@ -1,0 +1,19 @@
+{
+  "id": "STU-TEST-001",
+  "name": "Dev Sharma",
+  "email": "dev.sharma@test.edu",
+  "enrollment": "2024CS099",
+  "department": "Computer Science & Engineering",
+  "course": "B.Tech",
+  "branch": "CSE",
+  "year": "3rd Year",
+  "semester": "5th Semester",
+  "academicYear": "2024-2028",
+  "phone": "+91 98765 43210",
+  "headline": "Systems Programmer & Cloud Computing Student",
+  "summary": "Third-year Computer Science undergraduate focused on high-performance distributed systems, Go, and React. Winner of collegiate hackathon with published technical research.",
+  "skills": ["Go", "React", "Python", "Docker", "PostgreSQL", "Git"],
+  "color": 2,
+  "avatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4Ij48Y2lyY2xlIGN4PSI2NCIgY3k9IjY0IiByPSI2NCIgZmlsbD0iIzI1NjNFQiIvPjwvc3ZnPg==",
+  "portfolioVisibility": "public"
+}

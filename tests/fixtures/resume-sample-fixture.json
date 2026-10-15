@@ -1,0 +1,46 @@
+{
+  "student": {
+    "id": "STU-TEST-001",
+    "name": "Dev Sharma",
+    "enrollment": "2024CS099",
+    "course": "B.Tech",
+    "branch": "CSE",
+    "department": "Computer Science & Engineering",
+    "academicYear": "2024-2028",
+    "summary": "Motivated software engineer with experience developing cloud microservices using Node.js, Go, and React. Architected high-throughput pipelines processing 50,000+ events daily, achieving 99.9% uptime and reducing response latencies by 35% across critical services.",
+    "skills": ["Go", "React", "Python", "Docker", "PostgreSQL", "Git", "Kubernetes", "Redis", "TypeScript"],
+    "projects": [
+      {
+        "name": "CloudSync Edge",
+        "description": "Engineered real-time edge synchronization protocol reducing sync delay by 40% across 5,000 devices."
+      },
+      {
+        "name": "Distributed Job Scheduler",
+        "description": "Implemented Raft-based consensus worker queue handling 10,000 concurrent jobs with zero data loss."
+      }
+    ],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/devsharma", "visible": true },
+      { "label": "LinkedIn", "url": "https://linkedin.com/in/devsharma", "visible": true }
+    ]
+  },
+  "activities": [
+    {
+      "id": "ACT-TEST-01",
+      "status": "verified",
+      "name": "Winner - National Cloud Hackathon 2026",
+      "category": "Hackathon",
+      "organization": "MoE & AICTE",
+      "certificateId": "CC-2026-0140",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "ACT-TEST-02",
+      "status": "pending",
+      "name": "Unverified Internal Workshop",
+      "category": "Workshop",
+      "organization": "Tech Club",
+      "date": "2026-04-01"
+    }
+  ]
+}
