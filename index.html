@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CampusCred — Digital Student Achievement &amp; Participation Record System</title>
+  <meta name="description" content="CampusCred (SKIT021) — Every Achievement Counts. Every Record Verified. A centralized platform for collecting, verifying, managing and analyzing student participation data." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230B1F3A'/%3E%3Cpath d='M16 7 5 12l11 5 9-4.09V19h2v-7z' fill='%23fff'/%3E%3Cpath d='M9 15.5V19c0 1.66 3.13 3 7 3s7-1.34 7-3v-3.5l-7 3.18z' fill='%234F8CFF'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Web fonts load non-blocking: the app renders immediately with the system font
+       stack and upgrades to Inter/JetBrains Mono when the fonts arrive (or never, offline). -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" /></noscript>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+  <div id="app" class="app-root">
+    <!-- Initial boot screen (replaced by the router on load) -->
+    <div class="boot-screen">
+      <div class="boot-logo" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="46" height="46"><rect width="48" height="48" rx="12" fill="#0B1F3A"/><path d="M24 12 9 18.5 24 25l12-5.45V26h2V18.5z" fill="#fff"/><path d="M14 21.5V27c0 2.5 4.48 4.5 10 4.5s10-2 10-4.5v-5.5L24 27z" fill="#4F8CFF"/><path d="m31.5 30.6 2.1 4.7 2.4-1.1 1.7 3.8-4.7 2.2-1.9-4.3-.6.3z" fill="#22C55E"/></svg>
+      </div>
+      <div class="boot-text">CampusCred</div>
+      <div class="boot-bar"><span></span></div>
+    </div>
+  </div>
+
+  <noscript>
+    <div style="padding:40px;font-family:sans-serif;text-align:center">
+      CampusCred requires JavaScript. Please enable JavaScript to run this application.
+    </div>
+  </noscript>
+
+  <!-- Firebase SDK (Google Cloud Firestore compatibility libraries) -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+
+  <!-- Data layer (mock records & canonical schemas) -->
+  <script src="js/data/mockData.js"></script>
+
+  <!-- Google Cloud Firestore & Firebase Services -->
+  <script src="js/services/firebaseConfig.js"></script>
+  <script src="js/services/firestoreService.js"></script>
+
+  <!-- Service layer (all data access goes through these) -->
+  <script src="js/services/store.js"></script>
+  <script src="js/services/authService.js"></script>
+  <script src="js/services/activityService.js"></script>
+  <script src="js/services/verificationService.js"></script>
+  <script src="js/services/profileService.js"></script>
+  <script src="js/services/certificateService.js"></script>
+  <script src="js/services/atsService.js"></script>
+  <script src="js/services/reportService.js"></script>
+
+  <!-- Reusable components -->
+  <script src="js/components/icons.js"></script>
+  <script src="js/components/ui.js"></script>
+  <script src="js/components/charts.js"></script>
+  <script src="js/components/shell.js"></script>
+
+  <!-- Pages -->
+  <script src="js/pages/landing.js"></script>
+  <script src="js/pages/login.js"></script>
+  <script src="js/pages/student.js"></script>
+  <script src="js/pages/faculty.js"></script>
+  <script src="js/pages/admin.js"></script>
+  <script src="js/pages/public.js"></script>
+
+  <!-- Router / boot -->
+  <script src="js/app.js"></script>
+</body>
+</html>
