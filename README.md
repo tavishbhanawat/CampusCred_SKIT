@@ -114,7 +114,7 @@ Faculty only see submissions for their **department and authorized categories**.
 
 ## 🔎 Certificate Authenticity Engine
 
-A three-state verifier that checks certificates three ways: **by ID**, **by QR code**, or **by uploading the file** (`.pdf`, `.png`, `.jpg`).
+A two-state verifier that checks certificates two ways: **by ID**, or **by uploading the file** (`.pdf`, `.png`, `.jpg`).
 
 | Result | Meaning |
 |---|---|
