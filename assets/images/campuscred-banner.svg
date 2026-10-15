@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="240">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3A" />
+      <stop offset="50%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="240" rx="16" fill="url(#bgGrad)" />
+  <g transform="translate(48, 50)">
+    <rect width="64" height="64" rx="16" fill="#1E40AF" />
+    <path d="M32 16 12 25l20 9 16-7.2V35h3v-10z" fill="#FFFFFF"/>
+    <path d="M18 29.5V37c0 3.3 6 6 14 6s14-2.7 14-6v-7.5L32 37z" fill="#60A5FA"/>
+    <text x="84" y="32" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">CampusCred</text>
+    <text x="84" y="54" fill="#93C5FD" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500">Every Achievement Counts · Every Record Verified</text>
+    <text x="0" y="110" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-size="14">Institutional Student Achievement, Verification &amp; ATS Resume Ecosystem (SKIT021)</text>
+  </g>
+</svg>
